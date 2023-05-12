@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" 
+        href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Manrope:wght@700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="loginPopUp" id="popup">
+        <header style="margin-top:50px">Welcome to the SuperCoolChatroom!</header>
+        <div class>
+            <div class="center">
+                <subheader>Type in a room name to join an existing room, or a new room code to generate a new room</subheader>
+                <input type = "text" id = "chatroom" class="inputs" placeholder = "Room code">
+                <subheader>Enter your username here</subheader>
+                <input type="text" id="userName" placeholder="Username" class="inputs">
+                <subheader></subheader>
+                <button style="margin-top:25px"id="userNameButton" class="buttons" >Enter room!</button>
+            </div>
+        </div>
+        
+    </div> 
+    <script src="/socket.io/socket.io.js"></script>
+    <script src = "main.js"></script>
+
+</body>
+</html>

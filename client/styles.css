@@ -1,0 +1,190 @@
+body{
+    width:100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(254, 189, 189), rgb(252, 166, 166));
+}
+
+div.userDisplay, span{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 18%;
+    height: 600px;
+    text-align:justify;
+}
+
+div.chatbox, span{
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;;
+}
+
+div.block, span{
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+}
+
+div.messageFeed {
+    padding: 20px;
+    height: 500px;
+    border-radius: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+    background-color: white;
+}
+
+
+div.textBar{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    width: 1000px;
+    height: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align:justify;
+}
+
+::placeholder{
+
+    color: rgb(252, 166, 166);
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    
+}
+
+
+div.incomingMessage {
+    border-radius: 25px;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: auto;
+    margin-bottom:5px;
+    width: max-content;
+    height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 600px;
+    min-width: 30px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align:justify;
+    font-family: 'Manrope', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    background-image: linear-gradient(rgb(255, 182, 182), rgb(252, 166, 166));
+    position: relative;
+}
+
+div.outgoingMessage {
+
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: 5px;
+    margin-bottom:5px;
+    width: max-content;
+    height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+    max-width: 600px;
+    min-width:30px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align:justify;
+    font-family: 'Manrope', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    background-image: linear-gradient(rgb(255, 182, 182), rgb(252, 166, 166));
+    position: relative;
+}
+
+header {
+    width: 100%;
+    height: max-content;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    padding: 0px;
+    font-family: 'Manrope', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+div.loginPopUp {
+    width:100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(254, 189, 189), rgb(252, 166, 166));
+    text-align:center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+div.senderDisplay{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+    margin-right: auto;
+    font-family: 'Manrope', sans-serif;
+    color:rgb(255, 178, 178);
+    font-size: 15px;
+}
+
+.center {
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .inputs{
+    border-radius: 25px;
+    border-color: white;
+    padding-left: 10px;
+    width: 200px;
+    color: rgb(252, 166, 166);
+    background-color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+  }
+
+  .buttons{
+    border-radius: 5px;
+    border-color: white;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 178, 178);
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+  }
+  #userList{
+    padding: 20px;
+    height:450px;
+    border-radius: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+    background-color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    color:rgb(255, 182, 182);
+  }
+
+  subheader{
+    display: block;
+    font-family: 'Manrope', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+}
